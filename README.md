@@ -1,2 +1,2 @@
-# complete_js
+# complete-js
 just for testing.
