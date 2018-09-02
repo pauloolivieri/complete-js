@@ -1,0 +1,52 @@
+// IMPORTS
+
+@import "variables"
+@import "0-base/base-dir"
+
+// MIXINS
+
+=circleThing($rad, $height, $width, $bg, $color)
+    border-radius:      $rad
+    height:             $height
+    width:              $width
+    background-color:   $bg
+    color:              $color
+    line-height:        $height
+    text-align:         center
+    margin:             0 auto
+
+body
+    background: $pale
+    color: $black
+    font-family: $font-stack
+    font-size: $font-size
+
+article
+    @extend body
+    background: white
+    width: 760px
+    box-sizing: border-box
+    margin: -60px auto 0
+    padding: 40px
+    z-index: -2
+    position: relative
+
+header
+    +circleThing(100%, 200px, 200px, $blue, white)
+
+    h1
+        font-size: $font-size + 2
+
+button
+    width: 150px
+    height: 150px
+
+    &:hover
+        background: $dark
+
+footer
+    +circleThing(100%, 150px, 150px, $black, $pale)
+    position: relative
+    margin-top: -60px
+    z-index: -3
+    font-size: $font-size - 4
