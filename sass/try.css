@@ -1,0 +1,51 @@
+h1, h2, h3 {
+  font-size: 18px;
+}
+
+body {
+  background: #d2e1dd;
+  color: #333333;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+
+article {
+  background: white;
+  width: 760px;
+  box-sizing: border-box;
+  margin: -60px auto 0;
+  padding: 40px;
+  z-index: -2;
+  position: relative;
+}
+
+header {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  background-color: #036;
+  color: white;
+  line-height: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+footer {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  background-color: #333333;
+  color: #d2e1dd;
+  line-height: 150px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  margin-top: -60px;
+  z-index: -3;
+  font-size: 14px;
+}
+/*# sourceMappingURL=try.css.map */
